@@ -1,0 +1,183 @@
+h1,
+h2 {
+    color: #1a202c;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.email-signup__icon {
+    position: absolute;
+    top: 19px;
+    left: 15px;
+}
+
+.hero {
+    padding: 80px 0;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 550px;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #718096;
+    margin-bottom: 30px;
+}
+
+.email-signup {
+    display: flex;
+    align-items: center;
+    background-color: #f7fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 450px;
+    position: relative;
+}
+
+.email-signup__icon {
+    display: flex;
+    width: 25px;
+    height: 25px;
+}
+
+.email-signup__input {
+    flex-grow: 1;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    background-color: transparent;
+    outline: none;
+    padding-left: 50px;
+}
+
+.email-signup input::placeholder {
+    color: #a0aec0;
+}
+
+.email-signup .btn-secondary {
+    margin-left: auto;
+    border-radius: 0 6px 6px 0;
+    padding: 15px 30px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.input {
+    border: none;
+}
+
+.hero {
+    padding: 80px 0;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.hero .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero-content {
+    flex: 1;
+    max-width: 550px;
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    color: #718096;
+    margin-bottom: 30px;
+}
+
+.email-signup {
+    display: flex;
+    align-items: center;
+    background-color: #f7fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    overflow: hidden;
+    max-width: 450px;
+    position: relative;
+}
+
+.email-signup__icon {
+    display: flex;
+    width: 25px;
+    height: 25px;
+}
+
+.email-signup__input {
+    flex-grow: 1;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    background-color: transparent;
+    outline: none;
+    padding-left: 50px;
+}
+
+.email-signup input::placeholder {
+    color: #a0aec0;
+}
+
+.email-signup .btn-secondary {
+    margin-left: auto;
+    border-radius: 0 6px 6px 0;
+    padding: 15px 30px;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
