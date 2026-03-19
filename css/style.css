@@ -20,7 +20,7 @@
     }
 
     h2 {
-        font-size: 28px;
+        font-size: 26px;
     }
 
     .hero {
@@ -36,6 +36,13 @@
     .email-signup {
         flex-direction: column;
         max-width: 100%;
+          display: flex;
+    }
+
+    .email-signup__icon{
+        position: absolute;
+        top: 19px;
+        left: 15px;
     }
 
     .email-signup input,
@@ -116,7 +123,6 @@ body {
     width: 90%;
     max-width: 1200px;
     margin: 40px auto;
-    border-radius: 20px;
     overflow: hidden;
     height: 450px;
     display: flex;
@@ -146,7 +152,8 @@ body {
     background-color: rgba(106, 27, 154, 0.75);
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    justify-content: flex-end;
+    justify-content: flex-start;
+    box-sizing: border-box;
 }
 
 
